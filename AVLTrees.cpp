@@ -72,7 +72,7 @@ int main(){
 	cin>>n;
 	int val;
 	Node* root =NULL;
-	for(int i=0 ;i<n; i++){
+	for(int i=0 ; i<n; i++){
 		cin>>val;
 		root = insertNode(root,val);
 	}
